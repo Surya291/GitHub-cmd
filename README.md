@@ -34,18 +34,17 @@ You can install svn using apt install subversion
 If you are using HTTPS instead of SSH , you can follow this :
 
 
-
 Find your remote URL (remote.origin.url) with
-'''
+```
 git config -l
-'''
+```
 
 Your remote URL will be like this : https://{USERNAME}@github.com/{USERNAME}/{REPONAME}.git
 
 Execute this command :
-'''
+```
 git config remote.origin.url https://{USERNAME}:{PASSWORD}@github.com/{USERNAME}/{REPONAME}.git
-'''
+```
 
 
 
