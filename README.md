@@ -28,3 +28,24 @@ For pulling a directory e.g. https://github.com/gadepall/control/tree/master/man
 you can use svn co https://github.com/gadepall/control/trunk/manual
 just replace tree/master with trunk.
 You can install svn using apt install subversion
+
+# To avoid entering Username and Pwd everytime.. during pushing .
+
+If you are using HTTPS instead of SSH , you can follow this :
+
+
+
+Find your remote URL (remote.origin.url) with
+'''
+git config -l
+'''
+
+Your remote URL will be like this : https://{USERNAME}@github.com/{USERNAME}/{REPONAME}.git
+
+Execute this command :
+'''
+git config remote.origin.url https://{USERNAME}:{PASSWORD}@github.com/{USERNAME}/{REPONAME}.git
+'''
+
+
+
