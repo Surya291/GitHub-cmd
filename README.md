@@ -41,7 +41,7 @@ git config -l
 
 Your remote URL will be like this : https://{USERNAME}@github.com/{USERNAME}/{REPONAME}.git
 
-Execute this command :
+Execute this command : PASSWORD here refers to Personal Access Token !!
 ```
 git config remote.origin.url https://{USERNAME}:{PASSWORD}@github.com/{USERNAME}/{REPONAME}.git
 ```
