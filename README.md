@@ -48,5 +48,9 @@ Make sure you  tick all the boxes while generating the token.
 git config remote.origin.url https://{USERNAME}:{PASSWORD}@github.com/{USERNAME}/{REPONAME}.git
 ```
 
+# Setting up ssh for github to skip all the https hassle : Follow the below link 
+```
+https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html
+```
 
 
